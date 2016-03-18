@@ -1,0 +1,335 @@
+@font-face {
+	font-family: "timeburnerbold";
+	src: url("Fonts/Timeburner/timeburnerbold.ttf");
+}
+@font-face {
+	font-family: "timeburnernormal";
+	src:url("Fonts/Timeburner/timeburnernormal.ttf");
+}
+@font-face {
+	font-family: "Bellota-Bold";
+	src:url("Fonts/Bellota/Bellota-Bold.otf");
+	}
+@font-face {
+	font-family: "Bellota-BoldItalic";
+	src:url("Fonts/Bellota/Bellota-BoldItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Italic";
+	src:url("Fonts/Bellota/Bellota-Italic.otf");
+}
+@font-face {
+	font-family: "Bellota-Light";
+	src:url("Fonts/Bellota/Bellota-Light.otf");
+}
+@font-face {
+	font-family: "bellota-LightItalic";
+	src:url("Fonts/Bellota/Bellota-LightItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Regular";
+	src:url("Fonts/Bellota/Bellota-Regular.otf");
+}
+body	{
+	display: block;
+	background-color: #F0F8FF; 
+	border: 10px;
+	max-width:1100px;
+	margin: 0px 0 0 400px;
+	clear:both;
+}
+div.body	{
+	display: block;
+	background-color: #F0F8FF; 
+	border: 0px 20px 10px 20px;
+	max-width: 1100px;
+	margin-top: 0px;
+	margin-right:20px;
+	margin-left: 20px;
+	clear: both;
+	padding: 0px 20px 10px 20px;
+}
+header {
+	background-color: #F0F8FF;
+}
+h1		{
+	color: #F0F8FF; 
+	size: 30px;
+	font-family: Bellota-Bold;
+	word-spacing: 5px;
+}
+h1.BlockQuote		{
+	color: #F0F8FF; 
+	size: 30px;
+	font-family: Bellota-Bold;
+	word-spacing: 5px;
+}
+h2		{
+	color: #F0F8FF;
+	size: 25px;
+	font-family: timeburnerbold;
+	word-spacing: 5px;
+}
+h3		{
+	color: #F0F8FF;
+	size: 22.5px;
+	font-family: timeburnerbold;
+	word-spacing: 5px;
+}
+p 		{
+	color: dodgerblue;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+table {
+	display: block;
+	border: 1px solid #F0F8FF;
+	border-collapse:collapse;
+}
+td 		{
+	color: #F0F8FF;
+	size: 20px;
+	font-family: Bellota-Light;
+	text-align: center;
+	word-spacing: 5px;
+	padding: 7px 7px 7px 7px;
+}
+th 		{
+	color: #F0F8FF;
+	size: 22.5px;
+	font-family: timeburnerbold;
+	word-spacing: 5px;
+	padding:7px 7px 7px 7px;
+}
+
+p.sidebar	{
+	color: dodgerblue;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+ul.sidebar{
+	padding:20px;
+}
+ul.innersidebar{
+	padding:12px;
+}
+li		{
+	color: dodgerblue;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+li.h		{
+	color: DarkViolet;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+li.sidebar		{
+	color: darkmagenta;
+	size: 18px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+li.sidebar2		{
+	color: rgba(250, 250, 250, 0);
+	size: 18px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+big		{
+	color: dodgerblue;
+	size: 22px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+small		{
+	color: dodgerblue;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+blockquote.bigIndent		{
+	color: dodgerblue;
+	size: 20px;
+	font-family: Bellota-Light;
+}
+center.h1	{
+	color: #F0F8FF;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+footer 	{
+	background-color: lightcyan; 
+	clear: both;
+	padding-left: 150px;
+	float: bottom;
+}
+a:link    {
+	color:#9932CC; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:visited {
+	color:#9932CC; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:hover   {
+	color: black; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:active  {
+	color:#9932CC; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+/*sidebar image*/
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h1.image { 
+   position: absolute; 
+   top: -20px; 
+   left: 70px; 
+   width: 100%; 
+}
+h1 span { 
+   color: white; 
+   font-family: bold 24px/45px Bellota-Bold;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.0);
+   padding: 10px; 
+}
+/*sidebars*/
+div.sidebarOne {
+	background-color: rgba(64, 224, 208, 0.50); 
+	position: absolute;
+	top: 0; 
+	bottom: 0; 
+	left: 1px;
+	width: 275px;
+	margin: 0 auto;
+	clear: all;
+	padding-left: 10px;
+}
+div.sidebarTwo {
+	background-color: rgba(64, 224, 208, 0.50);
+	position: absolute;
+	top: 0; 
+	bottom: 0; 
+	right: 1px;
+	width: 275px;
+	margin: 0 auto;
+	clear: all;
+	padding-left: 5px;
+}
+p.ArabicIndent {
+	direction: ltr;
+	color: black;
+}
+/* iframe */
+iframe{
+    -ms-transform:scale(0.7);
+    -moz-transform:scale(0.7);
+    -o-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform:scale(0.7);
+}
+iframe.work{
+    -ms-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -o-transform: scale(0.50);
+    -webkit-transform: scale(0.50);
+    transform:scale(0.50);
+    top:-500px;
+}
+iframe {
+    position: relative;
+    top:-200px;
+    left:-360px;
+    height:2000px;
+    width:1500px;
+}
+div.wrapper {
+	overflow: hidden;
+    height:1000px;
+    width:760px;
+}
+/*Drowpdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0F8FF;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*header divs*/
+div.headerback {
+	display:block;
+	position:absolute;
+	width: 900px;
+	height:100px;
+	background-color: #F0F8FF;
+	margin-right:0;
+	margin-left:0;
+	margin-bottom:700px;
+}
+div.backinfo {
+	display:inline-block;
+	background-color: lightblue;
+	position: absolute;
+	width:150px;
+	height:150px;
+	margin-right:900px;
+	margin-bottom:700px;
+	margin-left:-100px;
+	padding: 0 10px 0 10px;
+}
+div.header {
+	display: inline-block;
+	background-color: lightblue;
+	position: absolute;
+	width:150px;
+	height:150px;
+	margin-right:700px;
+	margin-bottom:700px;
+	margin-left:75px;
+	padding: 0 10px 0 10px;
+}
+div.nav {
+	display: inline-block;
+	position: absolute;
+	background-color: lightblue;
+	margin-right:0px;
+	margin-bottom:700px;
+	margin-left:250px;
+	padding: 20px 0px 10px 0px;
+	height:120px;
+	width:425px;
+}
+/*nav table*/
+table.nav{
+	display: block;
+	border: 0px solid #F0F8FF;
+	border-collapse:collapse;
+}
+th.nav {
+	color: #F0F8FF;
+	width:20%;
+	height: 100%;
+}
