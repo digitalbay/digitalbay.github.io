@@ -338,8 +338,8 @@ div.contact {
 	padding: 0 10px 0 10px;
 }
 div.contact2 {
-	display: inline-block;
 	background-color: DeepPink;
+	display: inline-block;
 	position: absolute;
 	top: 100px;
 	width:130px;

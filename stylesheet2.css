@@ -35,14 +35,14 @@
 /*-----------------------------------------------------------------------*/
 
 /* main elements */
-div.body	{
+main	{
 	display: block;
 	background-color: Lavender; 
 	border: 0px 20px 0px 20px;
 	max-width: 1100px;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right:20px;
-	margin-left: 20px;
+	margin-left: -20px;
 	clear: both;
 	padding: 0px 20px 0px 20px;
 }
@@ -51,130 +51,127 @@ body	{
 	background-color: Lavender; 
 	border: 10px;
 	max-width:1100px;
-	margin: 0px 0px 0px 230px;
+	margin: 0px 280px 0px 10px;
 	clear:both;
 }
 /*Body Divs*/
 div.bodycontent{
 	display:block;
 	position:absolute;
-	top: 160px;
-	width: 1090px;
-	height: 490px;
+	top: 10px;
+	width: 1075px;
+	height: 470px;
 	background-color: MediumAquaMarine;
 	margin-right:0;
 	margin-left:0px;
-	bottom:5px;
+	bottom:10px;
 }
 div.body1 {
 	display: inline-block;
 	background-color: limegreen;
 	position: absolute;
-	top: 5px;
-	width:480px;
-	height:235px;
-	margin-left:5px;
+	top: 10px;
+	width:44.651163%;
+	height:225px;
+	margin-left:10px;
 	padding: 0 10px 0 10px;
 }
 div.body2 {
 	display: inline-block;
 	background-color: Salmon;
 	position: absolute;
-	top: 5px;
-	width:555px;
-	height:235px;
-	margin-left:510px;
+	top: 10px;
+	width:48.83720930232558%;
+	height:225px;
+	margin-left:520px;
 	padding: 0 10px 0 10px;
 }
 div.body3 {
 	display: inline-block;
 	background-color: FireBrick;
 	position: absolute;
-	top: 247px;
-	width:530px;
-	height:235px;
-	margin-left:5px;
+	top: 250px;
+	width:49.30232558139535%;
+	height:205px;
+	margin-left:10px;
 	padding: 0 10px 0 10px;
 }
 div.body4 {
 	display: inline-block;
 	background-color: SeaGreen;
 	position: absolute;
-	top: 247px;
-	width:505px;
-	height:235px;
-	margin-left:560px;
+	top: 250px;
+	width:44.18604651162791%;
+	height:205px;
+	margin-left:570px;
 	padding: 0 10px 0 10px;
 }
 
 /*-----------------------------------------------------------------------*/
 
 header {
-	background-color: Lavender;
-}
-/*header divs*/
-div.header {
 	display:block;
 	position:absolute;
-	width: 1070px;
+	width: 1075px;
 	height:150px;
+	top:490px;
 	background-color: PaleGoldenRod;
 	margin-right:0;
-	margin-left:0px;
+	margin-left: 0px;
 }
-div.backinfo {
+/*header divs*/
+.backinfo {
 	display:inline-block;
 	background-color: lightblue;
 	position: absolute;
-	top:10px;
-	width:140px;
+	top:80px;
+	width:455px;
 	padding:10px 10px 10px 10px;
-	height:100px;
+	height:40px;
 	margin-right:900px;
-	margin-left:10px;
+	margin-left:200px;
 }
-div.digitalbay {
+.digitalbay {
 	display: inline-block;
 	background-color: coral;
 	position: absolute;
 	width:455px;
-	height:90px;
-	top:5px;
-	margin-right:550px;
-	margin-left:190px;
+	height:60px;
+	top:0px;
+	margin-top:10px;
+	margin-right:560px;
+	margin-left:200px;
 	padding: 0 10px 0 10px;
 }
 div.nav {
 	display: inline-block;
 	position: absolute;
 	background-color: lightblue;
-	top:5px;
+	top:10px;
 	margin-right:0px;
-	margin-left:670px;
+	margin-left:685px;
 	padding: 10px 0px 10px 0px;
-	height:120px;
-	width:415px;
+	height:110px;
+	width:380px;
 }
-div.contact {
+.contact {
 	display: inline-block;
 	background-color: Chocolate;
 	position: absolute;
-	top: 100px;
-	width:300px;
-	height:45px;
-	margin-right:550px;
-	margin-left:190px;
+	top: 10px;
+	width:160px;
+	height:60px;
+	margin-left:10px;
 	padding: 0 10px 0 10px;
 }
-div.contact2 {
+.contact2 {
 	display: inline-block;
 	background-color: DeepPink;
 	position: absolute;
-	top: 100px;
-	width:130px;
-	height:45px;
-	margin-right:550px;
-	margin-left:515px;
+	top: 80px;
+	width:160px;
+	height:60px;
+	margin-left:10px;
 	padding: 0 10px 0 10px;
 }
 /*nav table*/
@@ -192,14 +189,22 @@ th.nav {
 /*-----------------------------------------------------------------------*/
 
 /*sidebars*/
+aside	{
+	display: block;
+	background-color: Lavender; 
+	border: 10px;
+	max-width:250px;
+	margin: 0px 10px 0px 0px;
+	clear:both;
+}
 div.extrainfo {
 	background-color: rgba(139, 0, 139, 0.50); 
 	position: absolute;
-	top: 5px;
+	top: 10px;
 	bottom: 500px; 
-	left: 5px;
+	right: 10px;
 	width: 250px;
-	height: 250px;
+	height: 260px;
 	margin: 0 auto;
 	clear: all;
 	padding-left: 5px;
@@ -208,10 +213,10 @@ div.extrainfo {
 div.slideshow {
 	background-color: rgba(64, 224, 208, 0.50);
 	position: absolute;
-	top: 260px; 
-	bottom: 5px; 
-	left: 5px;
-	height:390px;
+	top: 280px; 
+	bottom: 10px; 
+	right: 10px;
+	height:360px;
 	width: 250px;
 	margin: 0 auto;
 	clear: all;
@@ -224,11 +229,18 @@ div.slideshow {
 /*text elements*/
 h1		{
 	color: #F0F8FF; 
-	size: 80px;
+	size: 60px;
 	font-family: Bellota-Bold;
 	word-spacing: 5px;
 }
-h1.BlockQuote		{
+h1.header		{
+	color: #F0F8FF; 
+	size: 60px;
+	font-family: Bellota-Bold;
+	word-spacing: 5px;
+	margin:0.25em;
+}
+h1.BlockQuote	{
 	color: #F0F8FF; 
 	size: 30px;
 	font-family: Bellota-Bold;
@@ -248,6 +260,19 @@ h3		{
 }
 p 		{
 	color: dodgerblue;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+p.header	{
+	color: #F0F8FF;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+	margin-top:0.25em;
+}
+p.header2	{
+	color: #F0F8FF;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
@@ -330,7 +355,7 @@ blockquote.bigIndent		{
 }
 center.h1	{
 	color: #F0F8FF;
-	size: 80px;
+	size: 60px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
