@@ -194,7 +194,15 @@ aside	{
 	display: block;
 	background-color: Lavender; 
 	border: 10px;
-	max-width:250px;
+	max-width:20.66420664206642%;
+	margin: 0px 10px 0px 0px;
+	clear:both;
+}
+div.aside	{
+	display: block;
+	background-color: Lavender; 
+	border: 10px;
+	max-width:20.66420664206642%;
 	margin: 0px 10px 0px 0px;
 	clear:both;
 }
