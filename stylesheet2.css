@@ -50,18 +50,18 @@ main	{
 body	{
 	display: block;
 	background-color: Lavender; 
-	border: 10px;
-	max-width:1100px;
-	margin: 0px 280px 0px 10px;
+	border: 0.7380073800738007%;
+	max-width:81.18081180811808%;
+	margin: 0% 20.66420664206642% 0% 0.7380073800738007%;
 	clear:both;
 }
 /*Body Divs*/
 div.bodycontent{
 	display:block;
 	position:absolute;
-	top: 10px;
+	top: 1.8518518518518516%;
 	width: 78.59778597785979%;
-	height: 470px;
+	height: 72.22222222222221%;
 	background-color: MediumAquaMarine;
 	margin-right:0;
 	margin-left:0px;
@@ -114,8 +114,8 @@ header {
 	display:block;
 	position:absolute;
 	width: 78.59778597785979%;
-	height:150px;
-	top:490px;
+	height:23.14814814814815%;
+	top:75%;
 	background-color: PaleGoldenRod;
 	margin-right:0;
 	margin-left: 0px;
