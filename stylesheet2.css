@@ -63,25 +63,25 @@ div.bodycontent{
 	width: 78.59778597785979%;
 	height: 72.22222222222221%;
 	background-color: MediumAquaMarine;
-	margin-right:0;
-	margin-left:0px;
-	bottom:10px;
+	margin-right:0%;
+	margin-left:0%;
+	bottom:0.9090909090909091%;
 }
 div.body1 {
 	display: inline-block;
 	background-color: limegreen;
 	position: absolute;
-	top: 10px;
+	top: 2%;
 	width:44.651163%;
 	height:51.06382978723404%;
-	margin-left:10px;
-	padding: 0 10px 0 10px;
+	margin-left:0.9090909090909091%;
+	padding: 0% 1% 0% 1%;
 }
 div.body2 {
 	display: inline-block;
 	background-color: Salmon;
 	position: absolute;
-	top: 10px;
+	top: 2%;
 	width:48.83720930232558%;
 	height:51.06382978723404%;
 	margin-left:520px;
@@ -94,8 +94,8 @@ div.body3 {
 	top: 55.319148936170215%;
 	width:49.30232558139535%;
 	height:42.5531914893617%;
-	margin-left:10px;
-	padding: 0 10px 0 10px;
+	margin-left:0.9090909090909091%;
+	padding: 0 0.9090909090909091% 0 0.9090909090909091%;
 }
 div.body4 {
 	display: inline-block;
