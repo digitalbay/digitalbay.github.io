@@ -1,3 +1,4 @@
+/*Fonts*/
 @font-face {
 	font-family: "timeburnerbold";
 	src: url("Fonts/Timeburner/timeburnerbold.ttf");
@@ -30,14 +31,10 @@
 	font-family: "Bellota-Regular";
 	src:url("Fonts/Bellota/Bellota-Regular.otf");
 }
-body	{
-	display: block;
-	background-color: Lavender; 
-	border: 10px;
-	max-width:1100px;
-	margin: 0px 0px 0px 230px;
-	clear:both;
-}
+
+/*-----------------------------------------------------------------------*/
+
+/* main elements */
 div.body	{
 	display: block;
 	background-color: Lavender; 
@@ -49,9 +46,182 @@ div.body	{
 	clear: both;
 	padding: 0px 20px 0px 20px;
 }
+body	{
+	display: block;
+	background-color: Lavender; 
+	border: 10px;
+	max-width:1100px;
+	margin: 0px 0px 0px 230px;
+	clear:both;
+}
+/*Body Divs*/
+div.bodycontent{
+	display:block;
+	position:absolute;
+	top: 160px;
+	width: 1090px;
+	height: 490px;
+	background-color: MediumAquaMarine;
+	margin-right:0;
+	margin-left:0px;
+	bottom:5px;
+}
+div.body1 {
+	display: inline-block;
+	background-color: limegreen;
+	position: absolute;
+	top: 5px;
+	width:480px;
+	height:235px;
+	margin-left:5px;
+	padding: 0 10px 0 10px;
+}
+div.body2 {
+	display: inline-block;
+	background-color: Salmon;
+	position: absolute;
+	top: 5px;
+	width:555px;
+	height:235px;
+	margin-left:510px;
+	padding: 0 10px 0 10px;
+}
+div.body3 {
+	display: inline-block;
+	background-color: FireBrick;
+	position: absolute;
+	top: 247px;
+	width:530px;
+	height:235px;
+	margin-left:5px;
+	padding: 0 10px 0 10px;
+}
+div.body4 {
+	display: inline-block;
+	background-color: SeaGreen;
+	position: absolute;
+	top: 247px;
+	width:505px;
+	height:235px;
+	margin-left:560px;
+	padding: 0 10px 0 10px;
+}
+
+/*-----------------------------------------------------------------------*/
+
 header {
 	background-color: Lavender;
 }
+/*header divs*/
+div.header {
+	display:block;
+	position:absolute;
+	width: 1090px;
+	height:150px;
+	background-color: PaleGoldenRod;
+	margin-right:0;
+	margin-left:0px;
+}
+div.backinfo {
+	display:inline-block;
+	background-color: lightblue;
+	position: absolute;
+	top:5px;
+	width:160px;
+	padding:10px 10px 10px 10px;
+	height:120px;
+	margin-right:900px;
+	margin-left:5px;
+}
+div.digitalbay {
+	display: inline-block;
+	background-color: coral;
+	position: absolute;
+	width:455px;
+	height:90px;
+	top:5px;
+	margin-right:550px;
+	margin-left:190px;
+	padding: 0 10px 0 10px;
+}
+div.nav {
+	display: inline-block;
+	position: absolute;
+	background-color: lightblue;
+	top:5px;
+	margin-right:0px;
+	margin-left:670px;
+	padding: 10px 0px 10px 0px;
+	height:120px;
+	width:415px;
+}
+div.contact {
+	display: inline-block;
+	background-color: Chocolate;
+	position: absolute;
+	top: 100px;
+	width:300px;
+	height:45px;
+	margin-right:550px;
+	margin-left:190px;
+	padding: 0 10px 0 10px;
+}
+div.contact2 {
+	display: inline-block;
+	background-color: DeepPink;
+	position: absolute;
+	top: 100px;
+	width:130px;
+	height:45px;
+	margin-right:550px;
+	margin-left:515px;
+	padding: 0 10px 0 10px;
+}
+/*nav table*/
+table.nav{
+	display: block;
+	border: 0px solid #F0F8FF;
+	border-collapse:collapse;
+}
+th.nav {
+	color: dodgerblue;
+	width:20%;
+	height: 100%;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*sidebars*/
+div.extrainfo {
+	background-color: rgba(139, 0, 139, 0.50); 
+	position: absolute;
+	top: 5px;
+	bottom: 500px; 
+	left: 5px;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	clear: all;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+div.slideshow {
+	background-color: rgba(64, 224, 208, 0.50);
+	position: absolute;
+	top: 260px; 
+	bottom: 5px; 
+	left: 5px;
+	height:390px;
+	width: 250px;
+	margin: 0 auto;
+	clear: all;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*text elements*/
 h1		{
 	color: #F0F8FF; 
 	size: 80px;
@@ -82,6 +252,16 @@ p 		{
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
+p.sidebar	{
+	color: dodgerblue;
+	size: 20px;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
+p.ArabicIndent {
+	direction: ltr;
+	color: black;
+}
 table {
 	display: block;
 	border: 1px solid #F0F8FF;
@@ -101,13 +281,6 @@ th 		{
 	font-family: timeburnerbold;
 	word-spacing: 5px;
 	padding:7px 7px 7px 7px;
-}
-
-p.sidebar	{
-	color: dodgerblue;
-	size: 20px;
-	font-family: Bellota-Light;
-	word-spacing: 5px;
 }
 ul.sidebar{
 	padding:20px;
@@ -187,7 +360,10 @@ a:active  {
 	background-color:transparent; 
 	text-decoration:none;
 }
-/*sidebar image*/
+
+/*-----------------------------------------------------------------------*/
+
+/*text over images*/
 .image { 
    position: relative; 
    width: 100%; /* for IE 6 */
@@ -206,38 +382,9 @@ h1 span {
    background: rgba(0, 0, 0, 0.0);
    padding: 10px; 
 }
-/*sidebars*/
-div.extrainfo {
-	background-color: rgba(139, 0, 139, 0.50); 
-	position: absolute;
-	top: 5px;
-	bottom: 500px; 
-	left: 5px;
-	width: 250px;
-	height: 250px;
-	margin: 0 auto;
-	clear: all;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-div.slideshow {
-	background-color: rgba(64, 224, 208, 0.50);
-	position: absolute;
-	top: 260px; 
-	bottom: 5px; 
-	left: 5px;
-	height:390px;
-	width: 250px;
-	margin: 0 auto;
-	clear: all;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-/*arabic*/
-p.ArabicIndent {
-	direction: ltr;
-	color: black;
-}
+
+/*-----------------------------------------------------------------------*/
+
 /* iframe */
 iframe{
     -ms-transform:scale(0.7);
@@ -266,6 +413,9 @@ div.wrapper {
     height:1000px;
     width:760px;
 }
+
+/*-----------------------------------------------------------------------*/
+
 /*Drowpdown Menu */
 .dropdown {
     position: relative;
@@ -283,140 +433,8 @@ div.wrapper {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*header divs*/
-div.headerback {
-	display:block;
-	position:absolute;
-	width: 1090px;
-	height:150px;
-	background-color: PaleGoldenRod;
-	margin-right:0;
-	margin-left:0px;
-}
-div.backinfo {
-	display:inline-block;
-	background-color: lightblue;
-	position: absolute;
-	top:5px;
-	width:160px;
-	padding:10px 10px 10px 10px;
-	height:120px;
-	margin-right:900px;
-	margin-left:5px;
-}
-div.header {
-	display: inline-block;
-	background-color: coral;
-	position: absolute;
-	width:455px;
-	height:90px;
-	top:5px;
-	margin-right:550px;
-	margin-left:190px;
-	padding: 0 10px 0 10px;
-}
-div.nav {
-	display: inline-block;
-	position: absolute;
-	background-color: lightblue;
-	top:5px;
-	margin-right:0px;
-	margin-left:670px;
-	padding: 10px 0px 10px 0px;
-	height:120px;
-	width:415px;
-}
-div.contact {
-	display: inline-block;
-	background-color: Chocolate;
-	position: absolute;
-	top: 100px;
-	width:300px;
-	height:45px;
-	margin-right:550px;
-	margin-left:190px;
-	padding: 0 10px 0 10px;
-}
-div.contact2 {
-	display: inline-block;
-	background-color: DeepPink;
-	position: absolute;
-	top: 100px;
-	width:130px;
-	height:45px;
-	margin-right:550px;
-	margin-left:515px;
-	padding: 0 10px 0 10px;
-}
-/*nav table*/
-table.nav{
-	display: block;
-	border: 0px solid #F0F8FF;
-	border-collapse:collapse;
-}
-th.nav {
-	color: dodgerblue;
-	width:20%;
-	height: 100%;
-}
 
-/*Body Divs*/
-div.bodycontent{
-	display:block;
-	position:absolute;
-	top: 160px;
-	width: 1090px;
-	height: 490px;
-	background-color: MediumAquaMarine;
-	margin-right:0;
-	margin-left:0px;
-	bottom:5px;
-}
-div.body1 {
-	display: inline-block;
-	background-color: limegreen;
-	position: absolute;
-	top: 5px;
-	width:480px;
-	height:235px;
-	margin-left:5px;
-	padding: 0 10px 0 10px;
-}
-div.body2 {
-	display: inline-block;
-	background-color: Salmon;
-	position: absolute;
-	top: 5px;
-	width:555px;
-	height:235px;
-	margin-left:510px;
-	padding: 0 10px 0 10px;
-}
-div.body3 {
-	display: inline-block;
-	background-color: FireBrick;
-	position: absolute;
-	top: 247px;
-	width:530px;
-	height:235px;
-	margin-left:5px;
-	padding: 0 10px 0 10px;
-}
-div.body4 {
-	display: inline-block;
-	background-color: SeaGreen;
-	position: absolute;
-	top: 247px;
-	width:505px;
-	height:235px;
-	margin-left:560px;
-	padding: 0 10px 0 10px;
-}
-
-
-
-
-
+/*-----------------------------------------------------------------------*/
 
 /*slideshow*/
 .css-slideshow{
