@@ -39,7 +39,8 @@ main	{
 	display: block;
 	background-color: Lavender; 
 	border: 0px 20px 0px 20px;
-	max-width: 1100px;
+	max-width: 78.59778597785979%;
+	height:100%;
 	margin-top: 10px;
 	margin-right:20px;
 	margin-left: -20px;
@@ -59,7 +60,7 @@ div.bodycontent{
 	display:block;
 	position:absolute;
 	top: 10px;
-	width: 1075px;
+	width: 78.59778597785979%;
 	height: 470px;
 	background-color: MediumAquaMarine;
 	margin-right:0;
@@ -72,7 +73,7 @@ div.body1 {
 	position: absolute;
 	top: 10px;
 	width:44.651163%;
-	height:225px;
+	height:51.06382978723404%;
 	margin-left:10px;
 	padding: 0 10px 0 10px;
 }
@@ -82,7 +83,7 @@ div.body2 {
 	position: absolute;
 	top: 10px;
 	width:48.83720930232558%;
-	height:225px;
+	height:51.06382978723404%;
 	margin-left:520px;
 	padding: 0 10px 0 10px;
 }
@@ -90,9 +91,9 @@ div.body3 {
 	display: inline-block;
 	background-color: FireBrick;
 	position: absolute;
-	top: 250px;
+	top: 55.319148936170215%;
 	width:49.30232558139535%;
-	height:205px;
+	height:42.5531914893617%;
 	margin-left:10px;
 	padding: 0 10px 0 10px;
 }
@@ -100,9 +101,9 @@ div.body4 {
 	display: inline-block;
 	background-color: SeaGreen;
 	position: absolute;
-	top: 250px;
+	top: 55.319148936170215%;
 	width:44.18604651162791%;
-	height:205px;
+	height:42.5531914893617%;
 	margin-left:570px;
 	padding: 0 10px 0 10px;
 }
@@ -112,7 +113,7 @@ div.body4 {
 header {
 	display:block;
 	position:absolute;
-	width: 1075px;
+	width: 78.59778597785979%;
 	height:150px;
 	top:490px;
 	background-color: PaleGoldenRod;
