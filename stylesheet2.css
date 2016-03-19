@@ -116,7 +116,7 @@ header {
 div.header {
 	display:block;
 	position:absolute;
-	width: 1090px;
+	width: 1070px;
 	height:150px;
 	background-color: PaleGoldenRod;
 	margin-right:0;
@@ -126,12 +126,12 @@ div.backinfo {
 	display:inline-block;
 	background-color: lightblue;
 	position: absolute;
-	top:5px;
-	width:160px;
+	top:10px;
+	width:140px;
 	padding:10px 10px 10px 10px;
-	height:120px;
+	height:100px;
 	margin-right:900px;
-	margin-left:5px;
+	margin-left:10px;
 }
 div.digitalbay {
 	display: inline-block;
