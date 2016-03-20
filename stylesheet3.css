@@ -181,7 +181,7 @@ div.drop1 {
 	display: inline-block;
 	width:20%;
 	height:100%;
-	top: -2%;
+	top: -22%;
 	left: 5%;
 }
 div.drop2 {
@@ -189,7 +189,7 @@ div.drop2 {
 	display: inline-block;
 	width:20%;
 	height:100%;
-	top: -100%;
+	top: -125%;
 	left:30%;
 }
 div.drop3 {
@@ -197,16 +197,18 @@ div.drop3 {
 	display: inline-block;
 	width:20%;
 	height:100%;
-	top: -100%%;
+	top: -15.8em;
 	left:60%;
 }
 div.sourcesnav {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
 	position: absolute;
 	display: block;
 	width:20%;
 	height:100%;
-	top: -20%;
-	left:90%;
+	top: 25%;
+	left:23.5em;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -472,7 +474,7 @@ div.wrapper {
 
 /*-----------------------------------------------------------------------*/
 
-/*Drowpdown Menu */
+/*Dropdown Menu */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -481,15 +483,18 @@ div.wrapper {
 }
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #F0F8FF;
     min-width: 250px;
+    height:-50%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
 }
 .dropdown:hover .dropdown-content {
+	position:absolute;
     display: block;
+    height:-50%;
 }
 
 /*-----------------------------------------------------------------------*/
