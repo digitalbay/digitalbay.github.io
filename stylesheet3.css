@@ -46,6 +46,7 @@ main	{
 	margin-left: -1.47601476%;
 	clear: both;
 	padding: 0px 1.47601476% 0px 1.47601476%;
+	overflow: hidden;
 }
 body	{
 	display: block;
@@ -59,7 +60,7 @@ body	{
 div.bodycontent{
 	display:block;
 	position:absolute;
-	top: 1.8518518518518516%;
+	top: 1%;
 	width: 78.59778597785979%;
 	height: 72.22222222222221%;
 	background-color: MediumAquaMarine;
@@ -70,41 +71,41 @@ div.bodycontent{
 div.body1 {
 	display: inline-block;
 	background-color: limegreen;
-	position: absolute;
+	position: relative;
 	top: 2%;
-	width:44.651163%;
-	height:51.06382978723404%;
+	width:44.6%;
+	height:51%;
 	margin-left:0.9090909090909091%;
 	padding: 0% 1% 0% 1%;
 }
 div.body2 {
 	display: inline-block;
 	background-color: Salmon;
-	position: absolute;
-	top: 2%;
-	width:48.83720930232558%;
-	height:51.06382978723404%;
-	margin-left:520px;
-	padding: 0 10px 0 10px;
+	position: relative;
+	top: -48.3%;
+	width:48.3%;
+	height:51%;
+	margin-left:48.5%;
+	padding: 0 1% 0 1%;
 }
 div.body3 {
 	display: inline-block;
 	background-color: FireBrick;
-	position: absolute;
-	top: 55.319148936170215%;
-	width:49.30232558139535%;
-	height:42.5531914893617%;
-	margin-left:0.9090909090909091%;
-	padding: 0 0.9090909090909091% 0 0.9090909090909091%;
+	position: relative;
+	top: -46.5%;
+	width:50%;
+	height:41.6%;
+	margin-left:1%;
+	padding: 0 1% 0 1%;
 }
 div.body4 {
 	display: inline-block;
 	background-color: SeaGreen;
-	position: absolute;
-	top: 55.319148936170215%;
-	width:44.18604651162791%;
-	height:42.5531914893617%;
-	margin-left:570px;
+	position: relative;
+	top: -87.9%;
+	width:43%;
+	height:41.5%;
+	margin-left:54%;
 	padding: 0 10px 0 10px;
 }
 
@@ -485,8 +486,8 @@ div.wrapper {
     display: none;
     position: relative;
     background-color: #F0F8FF;
-    min-width: 250px;
-    height:-50%;
+    min-width: 100%;
+    height:100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -494,7 +495,7 @@ div.wrapper {
 .dropdown:hover .dropdown-content {
 	position:absolute;
     display: block;
-    height:-50%;
+    top:0%;
 }
 
 /*-----------------------------------------------------------------------*/
