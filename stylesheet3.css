@@ -46,7 +46,6 @@ main	{
 	margin-left: -1.47601476%;
 	clear: both;
 	padding: 0px 1.47601476% 0px 1.47601476%;
-	overflow: hidden;
 }
 body	{
 	display: block;
@@ -186,19 +185,17 @@ div.drop1 {
 	left: 5%;
 }
 div.drop2 {
-	position: absolute;
+	position: relative;
 	display: inline-block;
 	width:20%;
 	height:100%;
-	top: -125%;
 	left:30%;
 }
 div.drop3 {
-	position: absolute;
+	position: relative;
 	display: inline-block;
 	width:20%;
 	height:100%;
-	top: -15.8em;
 	left:60%;
 }
 div.sourcesnav {
@@ -484,7 +481,7 @@ div.wrapper {
 }
 .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #F0F8FF;
     min-width: 100%;
     height:100%;
@@ -496,6 +493,21 @@ div.wrapper {
 	position:absolute;
     display: block;
     top:0%;
+}
+/*extra dropdowns*/
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height:100%;
+    top:-8.7em;
+}
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height:100%;
+    top:-17.5em;
 }
 
 /*-----------------------------------------------------------------------*/
