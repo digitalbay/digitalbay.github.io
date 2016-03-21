@@ -476,7 +476,7 @@ div.wrapper {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 20%;
     height:100%;
 }
 .dropdown-content {
@@ -498,14 +498,14 @@ div.wrapper {
 .dropdown2 {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 200%;
     height:100%;
     top:-8.7em;
 }
 .dropdown3 {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 200%;
     height:100%;
     top:-17.5em;
 }
