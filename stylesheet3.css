@@ -83,7 +83,7 @@ div.body1 {
 }
 div.body2 {
 	display: inline-block;
-	background-color: Salmon;
+	background-color: #F39FFF;
 	position: relative;
 	top: -49.5%;
 	width:48.3%;
@@ -151,7 +151,7 @@ header {
 	margin-top:10px;
 	margin-right:560px;
 	margin-left:200px;
-	padding: 0 10px 0 10px;
+	padding: 0 10px 0 20px;
 	overflow: hidden;
 }
 div.nav {
@@ -161,9 +161,9 @@ div.nav {
 	top:10px;
 	margin-right:0px;
 	margin-left:685px;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 10px;
 	height:110px;
-	width:380px;
+	width:370px;
 	overflow: hidden;
 }
 .contact {
@@ -186,43 +186,6 @@ div.nav {
 	height:60px;
 	margin-left:10px;
 	padding: 0 10px 0 10px;
-	overflow: hidden;
-}
-/*nav divs*/
-div.drop1 {
-	position: absolute;
-	display: inline-block;
-	width:5em;
-	height:100%;
-	top: -22%;
-	left: 5%;
-	overflow: hidden;
-}
-div.drop2 {
-	position: relative;
-	display: inline-block;
-	width:20%;
-	height:100%;
-	left:30%;
-	overflow: hidden;
-}
-div.drop3 {
-	position: relative;
-	display: inline-block;
-	width:20%;
-	height:100%;
-	left:60%;
-	overflow: hidden;
-}
-div.sourcesnav {
-	transform: rotate(90deg);
-	transform-origin: left top 0;
-	position: absolute;
-	display: block;
-	width:20%;
-	height:100%;
-	top: 25%;
-	left:23.5em;
 	overflow: hidden;
 }
 
@@ -251,24 +214,10 @@ div.extrainfo {
 	background-color: rgba(139, 0, 139, 0.50); 
 	position: fixed;
 	top: 10px;
-	bottom: 50em; 
+	bottom: 0.5em; 
 	right: 0.5em;
 	width: 18.45018450184502%;
-	height: 45%;
-	margin: 0 auto;
-	clear: all;
-	padding-left: 5px;
-	padding-right: 5px;
-	overflow: hidden;
-}
-div.moreinf {
-	background-color: rgba(64, 224, 208, 0.50);
-	position: fixed;
-	top: 50%; 
-	bottom: 1%;
-	right: 0.5em;
-	height:45%;
-	width: 18.45018450184502%;
+	height: 95%;
 	margin: 0 auto;
 	clear: all;
 	padding-left: 5px;
@@ -276,6 +225,40 @@ div.moreinf {
 	overflow: hidden;
 }
 
+
+
+div.home {
+	position: fixed;
+	top: 2em;
+	right: 8em;
+}
+div.inqanda {
+	position: fixed;
+	top: 5em;
+	width: 5em;
+}
+div.devideas {
+	position:fixed;
+	top: 5em;
+	width:5em;
+	right: 4em;
+}
+div.CreateSolu {
+	position: fixed;
+	top: 15em;
+	width: 5em;
+}
+div.evalu {
+	position: fixed;
+	top: 15em;
+	width: 5em;
+	right: 4em;
+}
+div.sources {
+	position: fixed;
+	top: 25em;
+
+}
 /*-----------------------------------------------------------------------*/
 
 /*text elements*/
@@ -311,7 +294,7 @@ h3		{
 	word-spacing: 5px;
 }
 p 		{
-	color: dodgerblue;
+	color: #F0F8FF;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
@@ -330,7 +313,7 @@ p.header2	{
 	word-spacing: 5px;
 }
 p.sidebar	{
-	color: dodgerblue;
+	color: #F0F8FF;
 	size: 20px;
 	font-family: Bellota-Light;
 	word-spacing: 5px;
@@ -411,6 +394,11 @@ center.h1	{
 	font-family: Bellota-Light;
 	word-spacing: 5px;
 }
+center	{
+	color: #F0F8FF;
+	font-family: Bellota-Light;
+	word-spacing: 5px;
+}
 footer 	{
 	background-color: lightcyan; 
 	clear: both;
@@ -436,6 +424,9 @@ a:active  {
 	color:#9932CC; 
 	background-color:transparent; 
 	text-decoration:none;
+}
+.off 		{
+	color:black;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -497,21 +488,20 @@ div.wrapper {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 20%;
-    height:100%;
+    width: 100%;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #F0F8FF;
     min-width: 100%;
-    height:100%;
+    height: 5em;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
 }
 .dropdown:hover .dropdown-content {
-	position:absolute;
+	position: absolute;
     display: block;
     top:0%;
 }
