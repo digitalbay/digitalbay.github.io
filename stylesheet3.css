@@ -453,37 +453,6 @@ h1 span {
 
 /*-----------------------------------------------------------------------*/
 
-/* iframe */
-iframe{
-    -ms-transform:scale(0.7);
-    -moz-transform:scale(0.7);
-    -o-transform: scale(0.7);
-    -webkit-transform: scale(0.7);
-    transform:scale(0.7);
-}
-iframe.work{
-    -ms-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -o-transform: scale(0.50);
-    -webkit-transform: scale(0.50);
-    transform:scale(0.50);
-    top:-500px;
-}
-iframe {
-    position: relative;
-    top:-200px;
-    left:-360px;
-    height:2000px;
-    width:1500px;
-}
-div.wrapper {
-	overflow: hidden;
-    height:1000px;
-    width:760px;
-}
-
-/*-----------------------------------------------------------------------*/
-
 /*Dropdown Menu */
 .dropdown {
     position: relative;
