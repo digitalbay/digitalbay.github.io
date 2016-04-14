@@ -104,3 +104,6 @@ p {
     background-color: #473e5a;
     color: #ffffff;
 }
+.google_translate_element {
+	background-color: rgba(255, 255, 255, 0.5)
+}
