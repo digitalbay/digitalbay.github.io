@@ -33,6 +33,80 @@
 	src:url("Fonts/Bellota/Bellota-Regular.otf");
 }
 
+/*Raleway Fonts */
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Black.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-BlackItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Bold.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-BoldItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraBold.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraBoldItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraLightItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Italic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Light.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-LightItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Medium.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Regular.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-SemiBold.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-SemiBoldItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Thin.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ThisItalic.ttf");
+}
+
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.2em;
@@ -73,8 +147,8 @@ header::after {
 }
 
 .content {
-    width: 11em;
-    padding: 3em 0;
+    width: 50em;
+    padding: 2em 0;
     margin: 0 auto;
 }
 
