@@ -106,6 +106,10 @@
 	font-family: "Raleway";
 	src: url("Fonts/RaleWay/Raleway-ThisItalic.ttf");
 }
+@font-face {
+	font-family: "PoiretOne";
+	src: url("Fonts/Poiret-One/PoiretOne-Regular.ttf");
+}
 
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
