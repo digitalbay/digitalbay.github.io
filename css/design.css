@@ -1,4 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+/*Fonts*/
+@font-face {
+	font-family: "timeburnerbold";
+	src: url("Fonts/Timeburner/timeburnerbold.ttf");
+}
+@font-face {
+	font-family: "timeburnernormal";
+	src:url("Fonts/Timeburner/timeburnernormal.ttf");
+}
+@font-face {
+	font-family: "Bellota-Bold";
+	src:url("Fonts/Bellota/Bellota-Bold.otf");
+	}
+@font-face {
+	font-family: "Bellota-BoldItalic";
+	src:url("Fonts/Bellota/Bellota-BoldItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Italic";
+	src:url("Fonts/Bellota/Bellota-Italic.otf");
+}
+@font-face {
+	font-family: "Bellota-Light";
+	src:url("Fonts/Bellota/Bellota-Light.otf");
+}
+@font-face {
+	font-family: "bellota-LightItalic";
+	src:url("Fonts/Bellota/Bellota-LightItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Regular";
+	src:url("Fonts/Bellota/Bellota-Regular.otf");
+}
+
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.2em;

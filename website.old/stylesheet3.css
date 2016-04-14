@@ -1,35 +1,35 @@
 /*Fonts*/
 @font-face {
 	font-family: "timeburnerbold";
-	src: url("Fonts/Timeburner/timeburnerbold.ttf");
+	src: url("../Fonts/Timeburner/timeburnerbold.ttf");
 }
 @font-face {
 	font-family: "timeburnernormal";
-	src:url("Fonts/Timeburner/timeburnernormal.ttf");
+	src:url("../Fonts/Timeburner/timeburnernormal.ttf");
 }
 @font-face {
 	font-family: "Bellota-Bold";
-	src:url("Fonts/Bellota/Bellota-Bold.otf");
+	src:url("../Fonts/Bellota/Bellota-Bold.otf");
 	}
 @font-face {
 	font-family: "Bellota-BoldItalic";
-	src:url("Fonts/Bellota/Bellota-BoldItalic.otf");
+	src:url("../Fonts/Bellota/Bellota-BoldItalic.otf");
 }
 @font-face {
 	font-family: "Bellota-Italic";
-	src:url("Fonts/Bellota/Bellota-Italic.otf");
+	src:url("../Fonts/Bellota/Bellota-Italic.otf");
 }
 @font-face {
 	font-family: "Bellota-Light";
-	src:url("Fonts/Bellota/Bellota-Light.otf");
+	src:url("../Fonts/Bellota/Bellota-Light.otf");
 }
 @font-face {
 	font-family: "bellota-LightItalic";
-	src:url("Fonts/Bellota/Bellota-LightItalic.otf");
+	src:url("../Fonts/Bellota/Bellota-LightItalic.otf");
 }
 @font-face {
 	font-family: "Bellota-Regular";
-	src:url("Fonts/Bellota/Bellota-Regular.otf");
+	src:url("../Fonts/Bellota/Bellota-Regular.otf");
 }
 
 /*-----------------------------------------------------------------------*/
