@@ -116,7 +116,7 @@ body {
     font-size: 1.2em;
     line-height: 1.6em;
     color: #654;
-    background: #9b96ff;
+    background: #cce196;
 }
 
 header {
@@ -173,14 +173,14 @@ p {
 }
 
 .dark {
-    color: ##902333;
+    color: #a86160;
     line-height: 1.4em;
 }
 
 .foot {
     font-family: 'Bree Serif', serif;
     width: 100%;
-    background-color: ##902333;
+    background-color: #a86160;
     color: #ffffff;
 }
 .google_translate_element {
@@ -191,9 +191,12 @@ p {
   position:fixed;
   top:0em;
   width:100%;
-  background-color: #902333;
+  background-color: #a86160;
 }
 #navbar.navbar_absolute {
   position:absolute;
   width:100%;
+}
+th {
+	padding:0 0 0 0;
 }
