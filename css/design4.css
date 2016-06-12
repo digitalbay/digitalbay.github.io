@@ -120,7 +120,7 @@ body {
     font-size: 1.2em;
     line-height: 1.6em;
     color: #654;
-    background: #cce196;
+    background: #b499c8;
 }
 
 header {
@@ -178,14 +178,14 @@ p {
 }
 
 .dark {
-    color: #a86160;
+    color: #699;
     line-height: 1.4em;
 }
 
 .foot {
     font-family: 'Bree Serif', serif;
     width: 100%;
-    background-color: #a86160;
+    background-color: #699;
     color: #ffffff;
 }
 .google_translate_element {
@@ -196,7 +196,7 @@ p {
   position:fixed;
   top:0em;
   width:100%;
-  background-color: #a86160;
+  background-color: #699;
 }
 #navbar.navbar_absolute {
   position:absolute;
