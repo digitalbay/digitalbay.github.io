@@ -126,6 +126,10 @@ table {
 	padding: 0 0 0 0;
 }
 
+th:hover {
+	background-color: rgba(50 50 50 0.5)
+}
+
 header {
     width: 100%;
     height: 100%;
