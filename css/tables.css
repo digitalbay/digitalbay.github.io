@@ -1,0 +1,7 @@
+table { 
+	padding: 0 0 0 0;
+}
+
+th:hover {
+	background-color: rgba(100, 100, 100, 0.5)
+}
